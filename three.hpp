@@ -19,7 +19,7 @@ public:
     Three(const size_t& n, unsigned char t = '0');
     Three(const std::initializer_list<unsigned char>& t);
     Three(const std::string& t);
-    Three(const std::vector<unsigned char>& digits);
+    Three(const std::vector<unsigned char>& digits);//d
     
     Three(const Three& other);
     Three(Three&& other) noexcept;

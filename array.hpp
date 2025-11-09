@@ -20,7 +20,7 @@ public:
     virtual ~Array() noexcept;
 
     size_t getSize() const;
-    unsigned char getAt(size_t index) const;
+    unsigned char getAt(size_t index) const;//d
 
     Array copy() const;
 
@@ -31,4 +31,5 @@ public:
     Array& operator=(const Array& other);
     Array& operator=(Array&& other) noexcept;
 };
+
 #endif
