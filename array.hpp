@@ -31,5 +31,4 @@ public:
     Array& operator=(const Array& other);
     Array& operator=(Array&& other) noexcept;
 };
-
 #endif
